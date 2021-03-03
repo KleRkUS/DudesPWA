@@ -1,0 +1,33 @@
+{
+    "name": "Dudes shopping list",
+    "theme_color": "#414141",
+    "background_color": "#eeeeee",
+    "display": "fullscreen",
+    "scope": "/",
+    "start_url": "/",
+    "app_name": "Dudes shopping list",
+    "short_name": "DSL",
+    "description": "Just a shopping list app lol",
+    "icons": [
+        {
+            "src": "/assets/icons/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/icons/icon-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/icons/icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/icons/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

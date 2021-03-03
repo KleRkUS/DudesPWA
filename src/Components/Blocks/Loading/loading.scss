@@ -1,0 +1,31 @@
+@import "../../_variables";
+
+.loading {
+  &__wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: $light-background;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__content {
+    display: block;
+    animation: rotate 2s ease-in-out infinite;
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

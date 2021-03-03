@@ -1,0 +1,19 @@
+.settings {
+  &__title_small {
+    font-weight: 300;
+  }
+
+  &__option {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__input-text {
+    margin-bottom: .5em;
+    font-size: 1em;
+  }
+
+  &__button {
+    margin-top: .5em;
+  }
+}

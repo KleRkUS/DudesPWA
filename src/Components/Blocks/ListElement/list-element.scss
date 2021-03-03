@@ -1,0 +1,31 @@
+@import "../../variables";
+
+.list-element {
+  width: 100%;
+  list-style: none;
+  padding: .4em .7em;
+  margin: 0;
+  box-sizing: border-box;
+
+  &:nth-child(2n) {
+    background: $light-elems-background;
+  }
+
+  &__text {
+    font-weight: 400;
+  }
+
+  &__priority {
+    &_Low {
+      color: $priority-low;
+    }
+
+    &_Meduim {
+      color: $priority-medium;
+    }
+
+    &_High {
+      color: $priority-high;
+    }
+  }
+}

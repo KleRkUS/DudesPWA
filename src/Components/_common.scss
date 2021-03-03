@@ -1,0 +1,110 @@
+@import "variables";
+
+body {
+  margin: 0;
+  font-size: 16px;
+  font-family: "Rubik", sans-serif;
+  background: $light-background;
+}
+
+section {
+  width: 100%;
+  padding: 0 10%;
+  margin-top: 5em;
+  box-sizing: border-box;
+}
+
+.flex-between-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container_full-page {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+.btn {
+  border-radius: .3em;
+  border: .075em solid $light-contrast;
+  color: $light-contrast;
+  padding: .5em .9em;
+  background: transparent;
+  font-weight: 400;
+  transition: all .2s ease-in-out;
+
+  &:hover {
+    color: $light-background;
+    background: $light-contrast;
+  }
+
+  &_optional {
+    color: $light-background;
+    background: $light-contrast;
+
+    &:hover {
+      color: $light-contrast;
+      background: $light-background;
+    }
+  }
+}
+
+.page-title {
+  font-size: 1.5em;
+  font-weight: 300;
+  padding-top: 1em;
+}
+
+.input-text {
+  background: transparent;
+  padding: .4em .7em;
+  box-sizing: border-box;
+  color: #000;
+  border-bottom: .075em solid $light-contrast;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+
+  &::placeholder {
+    color: $light-contrast;
+  }
+
+  &_error {
+    color: red;
+    border: .075em solid red;
+  }
+}
+
+.input-select {
+  background: transparent;
+  padding: .4em .7em;
+  box-sizing: border-box;
+  color: #000;
+  border-bottom: .075em solid $light-contrast;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.button-text {
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.vertical-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,0 +1,75 @@
+@import "../../_variables";
+
+.popup {
+  width: 80%;
+  margin: 0 auto;
+  flex-direction: column;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: $light-elems-background;
+  padding: 2em 0;
+  font-size: 1.2em;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+  }
+
+  &__wrapper {
+    background: rgba(41, 41, 41, .3);
+  }
+
+  &__input-text {
+    margin-bottom: 1em;
+  }
+
+  &__input-select {
+    width: 80%;
+    margin: 1em;
+  }
+
+  &__close {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    font-size: 1.4em;
+    background: transparent;
+    border: none;
+    padding: 0;
+  }
+
+  &__error {
+    margin-top: .3em;
+    font-size: .8em;
+    color: red;
+    text-align: center;
+  }
+
+  &__label {
+    margin-top: .6em;
+    font-weight: 300;
+  }
+
+  &__title {
+    font-weight: 300;
+  }
+
+  &__button {
+    font-size: 1em;
+  }
+
+  &__buttons-container {
+    font-size: .9em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    button:first-child {
+      margin-right: .5em;
+    }
+  }
+}

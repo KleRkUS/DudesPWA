@@ -1,0 +1,43 @@
+@import "../../variables";
+
+.main-header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0 2em;
+  box-shadow: 0 0 7px #414141;
+  height: 5em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: all .2s ease-in-out;
+  z-index: 5;
+
+  &_hidden {
+    top: -5em;
+  }
+
+  h1 {
+    font-weight: 300;
+    margin-left: .5em;
+    font-size: 1.5em;
+  }
+
+  &__burger {
+    padding: 0;
+    border: none;
+    width: 2em;
+    background: transparent;
+
+    hr {
+      border-color: $light-contrast;
+    }
+  }
+
+  &__login {
+    font-size: 1em;
+  }
+}

@@ -1,0 +1,30 @@
+@import "../../_variables";
+
+.confirm-stage {
+  font-weight:  300;
+  align-items: flex-start;
+
+  &__subtitle {
+    font-size: .9em;
+    margin-bottom: .7em;
+  }
+
+  &__list {
+    margin: 0 0 .8em 0;
+    padding: 0;
+
+    li {
+      list-style: none;
+      margin-top: .5em;
+      font-size: .9em;
+
+      &:first-child {
+        margin-top: 0;
+      }
+
+      i {
+        color: $light-contrast;
+      }
+    }
+  }
+}
